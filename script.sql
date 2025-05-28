@@ -1,7 +1,7 @@
 -- Criando a DB
 -- drop database dbexemplo;
-create database dbExemplo;
-use dbExemplo;
+create database dbProjeto1;
+use dbProjeto1;
 
 create table tbUsuarios(
  Id int primary key auto_increment,
@@ -11,3 +11,5 @@ create table tbUsuarios(
 );
 
 select * from tbUsuarios;
+
+insert into tbUsuarios(nome, email, senha) values("Long", "longtechnology2025@gmail.com", "long@2025");
